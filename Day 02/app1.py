@@ -28,7 +28,7 @@ def gameScore(myChoice, theirChoice):
     return resultScore + choiceScore
 
 lines = None
-with open("Day 2\\data.txt") as f:
+with open("Day 02\\data.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]
 
 

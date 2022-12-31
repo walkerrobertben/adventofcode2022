@@ -17,7 +17,7 @@ def rangeTupleFromString(rangeString):
     return (int(n1), int(n2))
 
 lines = None
-with open("Day 4\\data.txt") as f:
+with open("Day 04\\data.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]
 
 

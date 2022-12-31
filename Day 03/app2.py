@@ -14,7 +14,7 @@ def findCommon(b1, b2, b3):
 
 
 lines = None
-with open("Day 3\\data.txt") as f:
+with open("Day 03\\data.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]
 
 i = 0

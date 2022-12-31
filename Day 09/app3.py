@@ -1,5 +1,7 @@
 import os, copy, time
 
+#i wanted to see it move! run this in the terminal rather than vs code console
+
 lines = None
 with open("data.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]

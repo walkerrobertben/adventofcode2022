@@ -1,5 +1,5 @@
 lines = None
-with open("Day 7\\data.txt") as f:
+with open("Day 07\\data.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]
 
 
