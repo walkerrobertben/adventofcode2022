@@ -1,0 +1,16 @@
+given some number A
+
+
+A = 19n + x   where n is an integer
+A is divisible by 19, if x is 0
+
+A can be represented by (n, x)
+
+
+add v:
+	B = 19n + x + v
+	B is divisible by 19, if v == (19 - x)
+
+	B = 19n + x + v
+
+	so B is now (n, x + v)
